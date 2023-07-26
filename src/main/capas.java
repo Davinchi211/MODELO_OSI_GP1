@@ -5,6 +5,7 @@ import java.awt.Image;
 import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -21,7 +22,7 @@ public class capas extends javax.swing.JFrame {
     public capas() {
         initComponents();
         this.setLocationRelativeTo(this);
-        this.agregarIma(cierre_label, "src/img/salida.png");
+        this.agregarIma(cierre_label, "src/img/return.png");
         iFIS2.setVisible(false);
         iFIS1.setVisible(false);
         iENL1.setVisible(false);
@@ -110,7 +111,7 @@ public class capas extends javax.swing.JFrame {
         iRED3.setVisible(true);
         }
     }
-    
+     
     
 
     
@@ -389,62 +390,137 @@ public class capas extends javax.swing.JFrame {
 
         iENL2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iENL2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        iENL2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                iENL2MouseClicked(evt);
+            }
+        });
         bg_capas.add(iENL2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 460, 80, 60));
 
         iFIS1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iFIS1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        iFIS1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                iFIS1MouseClicked(evt);
+            }
+        });
         bg_capas.add(iFIS1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 540, 80, 60));
 
         iENL1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iENL1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        iENL1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                iENL1MouseClicked(evt);
+            }
+        });
         bg_capas.add(iENL1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 460, 80, 60));
 
         iRED1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iRED1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        iRED1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                iRED1MouseClicked(evt);
+            }
+        });
         bg_capas.add(iRED1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 380, 80, 60));
 
         iTRAN1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iTRAN1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        iTRAN1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                iTRAN1MouseClicked(evt);
+            }
+        });
         bg_capas.add(iTRAN1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 300, 80, 60));
 
         iSES1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iSES1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        iSES1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                iSES1MouseClicked(evt);
+            }
+        });
         bg_capas.add(iSES1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 220, 80, 60));
 
         iPRES1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iPRES1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        iPRES1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                iPRES1MouseClicked(evt);
+            }
+        });
         bg_capas.add(iPRES1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 140, 80, 60));
 
         iAPP1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iAPP1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        iAPP1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                iAPP1MouseClicked(evt);
+            }
+        });
         bg_capas.add(iAPP1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 60, 80, 60));
 
         iSES2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iSES2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        iSES2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                iSES2MouseClicked(evt);
+            }
+        });
         bg_capas.add(iSES2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 220, 80, 60));
 
         iFIS2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iFIS2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        iFIS2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                iFIS2MouseClicked(evt);
+            }
+        });
         bg_capas.add(iFIS2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 540, 80, 60));
 
         iPRES2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iPRES2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        iPRES2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                iPRES2MouseClicked(evt);
+            }
+        });
         bg_capas.add(iPRES2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 140, 80, 60));
 
         iTRAN2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iTRAN2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        iTRAN2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                iTRAN2MouseClicked(evt);
+            }
+        });
         bg_capas.add(iTRAN2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 300, 80, 60));
 
         iRED2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iRED2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        iRED2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                iRED2MouseClicked(evt);
+            }
+        });
         bg_capas.add(iRED2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 380, 80, 60));
 
         iRED3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iRED3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        iRED3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                iRED3MouseClicked(evt);
+            }
+        });
         bg_capas.add(iRED3, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 380, 80, 60));
 
         iAPP2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iAPP2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        iAPP2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                iAPP2MouseClicked(evt);
+            }
+        });
         bg_capas.add(iAPP2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 60, 80, 60));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -537,6 +613,142 @@ public class capas extends javax.swing.JFrame {
         lbAplicacion.setBackground(new Color(241, 201, 59));
         lbAplicacion.setForeground(new Color(26, 93, 26));
     }//GEN-LAST:event_lbAplicacionMouseEntered
+
+    //CAPA FISICA 1
+    private void iFIS1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iFIS1MouseClicked
+        Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
+        JOptionPane.showMessageDialog(null,"----NOMBRE---- "
+                + "\n\n\t\n-------INF "
+                + "-------\n\t+PUERTOS"
+                + "\t\n+COMPATIBILIDAD, ETC",
+                "CAPA 1",JOptionPane.INFORMATION_MESSAGE, icon);
+    }//GEN-LAST:event_iFIS1MouseClicked
+    //CAPA FISICA 2
+    private void iFIS2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iFIS2MouseClicked
+        Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
+        JOptionPane.showMessageDialog(null,"----NOMBRE---- "
+                + "\n\n\t\n-------INF "
+                + "-------\n\t+PUERTOS"
+                + "\t\n+COMPATIBILIDAD, ETC",
+                "CAPA 1",JOptionPane.INFORMATION_MESSAGE, icon);
+    }//GEN-LAST:event_iFIS2MouseClicked
+    //CAPA ENLACE DE DATOS 1
+    private void iENL1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iENL1MouseClicked
+        Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
+        JOptionPane.showMessageDialog(null,"----NOMBRE---- "
+                + "\n\n\t\n-------INF "
+                + "-------\n\t+PUERTOS"
+                + "\t\n+COMPATIBILIDAD, ETC",
+                "CAPA 2",JOptionPane.INFORMATION_MESSAGE, icon);
+    }//GEN-LAST:event_iENL1MouseClicked
+    //CAPA ENLACE DE DATOS 2
+    private void iENL2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iENL2MouseClicked
+        Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
+        JOptionPane.showMessageDialog(null,"----NOMBRE---- "
+                + "\n\n\t\n-------INF "
+                + "-------\n\t+PUERTOS"
+                + "\t\n+COMPATIBILIDAD, ETC",
+                "CAPA 2",JOptionPane.INFORMATION_MESSAGE, icon);
+    }//GEN-LAST:event_iENL2MouseClicked
+    //CAPA RED 1
+    private void iRED1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iRED1MouseClicked
+        Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
+        JOptionPane.showMessageDialog(null,"----NOMBRE---- "
+                + "\n\n\t\n-------INF "
+                + "-------\n\t+PUERTOS"
+                + "\t\n+COMPATIBILIDAD, ETC",
+                "CAPA 3",JOptionPane.INFORMATION_MESSAGE, icon);
+    }//GEN-LAST:event_iRED1MouseClicked
+    //CAPA RED 2
+    private void iRED2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iRED2MouseClicked
+        Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
+        JOptionPane.showMessageDialog(null,"----NOMBRE---- "
+                + "\n\n\t\n-------INF "
+                + "-------\n\t+PUERTOS"
+                + "\t\n+COMPATIBILIDAD, ETC",
+                "CAPA 3",JOptionPane.INFORMATION_MESSAGE, icon);
+    }//GEN-LAST:event_iRED2MouseClicked
+    //CAPA RED 3
+    private void iRED3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iRED3MouseClicked
+        Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
+        JOptionPane.showMessageDialog(null,"----NOMBRE---- "
+                + "\n\n\t\n-------INF "
+                + "-------\n\t+PUERTOS"
+                + "\t\n+COMPATIBILIDAD, ETC",
+                "CAPA 3",JOptionPane.INFORMATION_MESSAGE, icon);
+    }//GEN-LAST:event_iRED3MouseClicked
+    //CAPA TRANSPORTE 1
+    private void iTRAN1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iTRAN1MouseClicked
+        Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
+        JOptionPane.showMessageDialog(null,"----NOMBRE---- "
+                + "\n\n\t\n-------INF "
+                + "-------\n\t+PUERTOS"
+                + "\t\n+COMPATIBILIDAD, ETC",
+                "CAPA 4",JOptionPane.INFORMATION_MESSAGE, icon);
+    }//GEN-LAST:event_iTRAN1MouseClicked
+    //CAPA TRANSPORTE 2
+    private void iTRAN2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iTRAN2MouseClicked
+        Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
+        JOptionPane.showMessageDialog(null,"----NOMBRE---- "
+                + "\n\n\t\n-------INF "
+                + "-------\n\t+PUERTOS"
+                + "\t\n+COMPATIBILIDAD, ETC",
+                "CAPA 4",JOptionPane.INFORMATION_MESSAGE, icon);
+    }//GEN-LAST:event_iTRAN2MouseClicked
+    //CAPA SESION 1
+    private void iSES1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iSES1MouseClicked
+        Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
+        JOptionPane.showMessageDialog(null,"----NOMBRE---- "
+                + "\n\n\t\n-------INF "
+                + "-------\n\t+PUERTOS"
+                + "\t\n+COMPATIBILIDAD, ETC",
+                "CAPA 5",JOptionPane.INFORMATION_MESSAGE, icon);
+    }//GEN-LAST:event_iSES1MouseClicked
+    //CAPA SESION 2
+    private void iSES2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iSES2MouseClicked
+        Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
+        JOptionPane.showMessageDialog(null,"----NOMBRE---- "
+                + "\n\n\t\n-------INF "
+                + "-------\n\t+PUERTOS"
+                + "\t\n+COMPATIBILIDAD, ETC",
+                "CAPA 5",JOptionPane.INFORMATION_MESSAGE, icon);
+    }//GEN-LAST:event_iSES2MouseClicked
+    //CAPA PRESENTACION 1
+    private void iPRES1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iPRES1MouseClicked
+        Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
+        JOptionPane.showMessageDialog(null,"----NOMBRE---- "
+                + "\n\n\t\n-------INF "
+                + "-------\n\t+PUERTOS"
+                + "\t\n+COMPATIBILIDAD, ETC",
+                "CAPA 6",JOptionPane.INFORMATION_MESSAGE, icon);
+    }//GEN-LAST:event_iPRES1MouseClicked
+    //CAPA PRESENTACION 2
+    private void iPRES2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iPRES2MouseClicked
+        Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
+        JOptionPane.showMessageDialog(null,"----NOMBRE---- "
+                + "\n\n\t\n-------INF "
+                + "-------\n\t+PUERTOS"
+                + "\t\n+COMPATIBILIDAD, ETC",
+                "CAPA 6",JOptionPane.INFORMATION_MESSAGE, icon);
+    }//GEN-LAST:event_iPRES2MouseClicked
+    //CAPA APLICACION 1
+    private void iAPP1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iAPP1MouseClicked
+        Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
+        JOptionPane.showMessageDialog(null,"----NOMBRE---- "
+                + "\n\n\t\n-------INF "
+                + "-------\n\t+PUERTOS"
+                + "\t\n+COMPATIBILIDAD, ETC",
+                "CAPA 7",JOptionPane.INFORMATION_MESSAGE, icon);
+    }//GEN-LAST:event_iAPP1MouseClicked
+    //CAPA APLICACION 2
+    private void iAPP2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iAPP2MouseClicked
+        Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
+        JOptionPane.showMessageDialog(null,"----NOMBRE---- "
+                + "\n\n\t\n-------INF "
+                + "-------\n\t+PUERTOS"
+                + "\t\n+COMPATIBILIDAD, ETC",
+                "CAPA 7",JOptionPane.INFORMATION_MESSAGE, icon);
+    }//GEN-LAST:event_iAPP2MouseClicked
 
     /**
      * @param args the command line arguments
