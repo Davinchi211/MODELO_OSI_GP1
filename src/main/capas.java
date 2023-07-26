@@ -32,6 +32,8 @@ public class capas extends javax.swing.JFrame {
         iENL2.setVisible(false);
         iTRAN1.setVisible(false);
         iTRAN2.setVisible(false);
+        iRED1.setVisible(false);
+        iRED2.setVisible(false);
         iSES1.setVisible(false);
         iSES2.setVisible(false);
         iPRES1.setVisible(false);
@@ -660,7 +662,7 @@ public class capas extends javax.swing.JFrame {
         Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
         JOptionPane.showMessageDialog(null,"Red modelo OSI "
                 + "\n\n\t\nes la tercera capa del modelo OSI. Es responsable del direccionamiento, que es importante para establecer conexiones dentro de una red "
-                + "-------\n\t+ estos existen los conocidos, registrados y dinamicos/privados"
+                + "-------\n\t+ estos existen los conocidos, registrados y dinamicos/privados",
                 "CAPA 3",JOptionPane.INFORMATION_MESSAGE, icon);
     }//GEN-LAST:event_iRED1MouseClicked
     
