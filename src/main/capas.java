@@ -614,7 +614,7 @@ public class capas extends javax.swing.JFrame {
         lbAplicacion.setForeground(new Color(26, 93, 26));
     }//GEN-LAST:event_lbAplicacionMouseEntered
 
-    //CAPA FISICA 1
+//CAPA FISICA 1
     private void iFIS1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iFIS1MouseClicked
         Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
         JOptionPane.showMessageDialog(null,"----NOMBRE---- "
@@ -623,7 +623,8 @@ public class capas extends javax.swing.JFrame {
                 + "\t\n+COMPATIBILIDAD, ETC",
                 "CAPA 1",JOptionPane.INFORMATION_MESSAGE, icon);
     }//GEN-LAST:event_iFIS1MouseClicked
-    //CAPA FISICA 2
+    
+//CAPA FISICA 2
     private void iFIS2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iFIS2MouseClicked
         Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
         JOptionPane.showMessageDialog(null,"----NOMBRE---- "
@@ -632,7 +633,8 @@ public class capas extends javax.swing.JFrame {
                 + "\t\n+COMPATIBILIDAD, ETC",
                 "CAPA 1",JOptionPane.INFORMATION_MESSAGE, icon);
     }//GEN-LAST:event_iFIS2MouseClicked
-    //CAPA ENLACE DE DATOS 1
+    
+//CAPA ENLACE DE DATOS 1
     private void iENL1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iENL1MouseClicked
         Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
         JOptionPane.showMessageDialog(null,"----NOMBRE---- "
@@ -641,7 +643,8 @@ public class capas extends javax.swing.JFrame {
                 + "\t\n+COMPATIBILIDAD, ETC",
                 "CAPA 2",JOptionPane.INFORMATION_MESSAGE, icon);
     }//GEN-LAST:event_iENL1MouseClicked
-    //CAPA ENLACE DE DATOS 2
+    
+//CAPA ENLACE DE DATOS 2
     private void iENL2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iENL2MouseClicked
         Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
         JOptionPane.showMessageDialog(null,"----NOMBRE---- "
@@ -650,7 +653,8 @@ public class capas extends javax.swing.JFrame {
                 + "\t\n+COMPATIBILIDAD, ETC",
                 "CAPA 2",JOptionPane.INFORMATION_MESSAGE, icon);
     }//GEN-LAST:event_iENL2MouseClicked
-    //CAPA RED 1
+    
+//CAPA RED 1
     private void iRED1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iRED1MouseClicked
         Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
         JOptionPane.showMessageDialog(null,"----NOMBRE---- "
@@ -659,7 +663,8 @@ public class capas extends javax.swing.JFrame {
                 + "\t\n+COMPATIBILIDAD, ETC",
                 "CAPA 3",JOptionPane.INFORMATION_MESSAGE, icon);
     }//GEN-LAST:event_iRED1MouseClicked
-    //CAPA RED 2
+    
+//CAPA RED 2
     private void iRED2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iRED2MouseClicked
         Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
         JOptionPane.showMessageDialog(null,"----NOMBRE---- "
@@ -668,7 +673,8 @@ public class capas extends javax.swing.JFrame {
                 + "\t\n+COMPATIBILIDAD, ETC",
                 "CAPA 3",JOptionPane.INFORMATION_MESSAGE, icon);
     }//GEN-LAST:event_iRED2MouseClicked
-    //CAPA RED 3
+    
+//CAPA RED 3
     private void iRED3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iRED3MouseClicked
         Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
         JOptionPane.showMessageDialog(null,"----NOMBRE---- "
@@ -677,7 +683,8 @@ public class capas extends javax.swing.JFrame {
                 + "\t\n+COMPATIBILIDAD, ETC",
                 "CAPA 3",JOptionPane.INFORMATION_MESSAGE, icon);
     }//GEN-LAST:event_iRED3MouseClicked
-    //CAPA TRANSPORTE 1
+    
+//CAPA TRANSPORTE 1
     private void iTRAN1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iTRAN1MouseClicked
         Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
         JOptionPane.showMessageDialog(null,"----NOMBRE---- "
@@ -686,7 +693,8 @@ public class capas extends javax.swing.JFrame {
                 + "\t\n+COMPATIBILIDAD, ETC",
                 "CAPA 4",JOptionPane.INFORMATION_MESSAGE, icon);
     }//GEN-LAST:event_iTRAN1MouseClicked
-    //CAPA TRANSPORTE 2
+    
+//CAPA TRANSPORTE 2
     private void iTRAN2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iTRAN2MouseClicked
         Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
         JOptionPane.showMessageDialog(null,"----NOMBRE---- "
@@ -695,7 +703,8 @@ public class capas extends javax.swing.JFrame {
                 + "\t\n+COMPATIBILIDAD, ETC",
                 "CAPA 4",JOptionPane.INFORMATION_MESSAGE, icon);
     }//GEN-LAST:event_iTRAN2MouseClicked
-    //CAPA SESION 1
+    
+//CAPA SESION 1
     private void iSES1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iSES1MouseClicked
         Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
         JOptionPane.showMessageDialog(null,"----NOMBRE---- "
@@ -704,7 +713,8 @@ public class capas extends javax.swing.JFrame {
                 + "\t\n+COMPATIBILIDAD, ETC",
                 "CAPA 5",JOptionPane.INFORMATION_MESSAGE, icon);
     }//GEN-LAST:event_iSES1MouseClicked
-    //CAPA SESION 2
+    
+//CAPA SESION 2
     private void iSES2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iSES2MouseClicked
         Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
         JOptionPane.showMessageDialog(null,"----NOMBRE---- "
@@ -713,7 +723,8 @@ public class capas extends javax.swing.JFrame {
                 + "\t\n+COMPATIBILIDAD, ETC",
                 "CAPA 5",JOptionPane.INFORMATION_MESSAGE, icon);
     }//GEN-LAST:event_iSES2MouseClicked
-    //CAPA PRESENTACION 1
+    
+//CAPA PRESENTACION 1
     private void iPRES1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iPRES1MouseClicked
         Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
         JOptionPane.showMessageDialog(null,"----NOMBRE---- "
@@ -722,7 +733,8 @@ public class capas extends javax.swing.JFrame {
                 + "\t\n+COMPATIBILIDAD, ETC",
                 "CAPA 6",JOptionPane.INFORMATION_MESSAGE, icon);
     }//GEN-LAST:event_iPRES1MouseClicked
-    //CAPA PRESENTACION 2
+    
+//CAPA PRESENTACION 2
     private void iPRES2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iPRES2MouseClicked
         Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
         JOptionPane.showMessageDialog(null,"----NOMBRE---- "
@@ -731,7 +743,8 @@ public class capas extends javax.swing.JFrame {
                 + "\t\n+COMPATIBILIDAD, ETC",
                 "CAPA 6",JOptionPane.INFORMATION_MESSAGE, icon);
     }//GEN-LAST:event_iPRES2MouseClicked
-    //CAPA APLICACION 1
+    
+//CAPA APLICACION 1
     private void iAPP1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iAPP1MouseClicked
         Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
         JOptionPane.showMessageDialog(null,"----NOMBRE---- "
@@ -740,7 +753,8 @@ public class capas extends javax.swing.JFrame {
                 + "\t\n+COMPATIBILIDAD, ETC",
                 "CAPA 7",JOptionPane.INFORMATION_MESSAGE, icon);
     }//GEN-LAST:event_iAPP1MouseClicked
-    //CAPA APLICACION 2
+    
+//CAPA APLICACION 2
     private void iAPP2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iAPP2MouseClicked
         Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
         JOptionPane.showMessageDialog(null,"----NOMBRE---- "
