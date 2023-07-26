@@ -23,6 +23,7 @@ public class capas extends javax.swing.JFrame {
         initComponents();
         this.setLocationRelativeTo(this);
         this.agregarIma(cierre_label, "src/img/return.png");
+        this.agregarIma(iRED1, "src/img/logo.jpg" )
         iFIS2.setVisible(false);
         iFIS1.setVisible(false);
         iENL1.setVisible(false);
