@@ -667,7 +667,7 @@ public class capas extends javax.swing.JFrame {
 //CAPA RED 2
     private void iRED2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iRED2MouseClicked
         Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
-        JOptionPane.showMessageDialog(null,"----NOMBRE---- "
+        JOptionPane.showMessageDialog(null,"Protocolos de Red "
                 + "\n\n\t\n Las capas representan las operaciones de transferencia de datos comunes a todos los tipos de transferencias de datos entre las redes de cooperación. "
                 + "\t\n+COMPATIBILIDAD y conexciones entre las siguientes: IP, IPsec, ICMP, Protocolo de red IGMP, GRE",
                 "CAPA 3",JOptionPane.INFORMATION_MESSAGE, icon);
