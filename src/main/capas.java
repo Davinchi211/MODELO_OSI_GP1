@@ -25,12 +25,11 @@ public class capas extends javax.swing.JFrame {
         this.setLocationRelativeTo(this);
         this.agregarIma(cierre_label, "src/img/return.png");
         this.agregarIma(iRED1, "src/img/red1.jpg");
+        this.agregarIma(iRED2, "src/img/red2.jpg");
         iFIS2.setVisible(false);
         iFIS1.setVisible(false);
         iENL1.setVisible(false);
         iENL2.setVisible(false);
-        iRED1.setVisible(false);
-        iRED2.setVisible(false);
         iTRAN1.setVisible(false);
         iTRAN2.setVisible(false);
         iSES1.setVisible(false);
@@ -669,9 +668,8 @@ public class capas extends javax.swing.JFrame {
     private void iRED2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iRED2MouseClicked
         Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
         JOptionPane.showMessageDialog(null,"----NOMBRE---- "
-                + "\n\n\t\n-------INF "
-                + "-------\n\t+PUERTOS"
-                + "\t\n+COMPATIBILIDAD, ETC",
+                + "\n\n\t\n Las capas representan las operaciones de transferencia de datos comunes a todos los tipos de transferencias de datos entre las redes de cooperación. "
+                + "\t\n+COMPATIBILIDAD y conexciones entre las siguientes: IP, IPsec, ICMP, Protocolo de red IGMP, GRE",
                 "CAPA 3",JOptionPane.INFORMATION_MESSAGE, icon);
     }//GEN-LAST:event_iRED2MouseClicked
     
