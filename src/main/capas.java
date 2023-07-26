@@ -24,7 +24,7 @@ public class capas extends javax.swing.JFrame {
         initComponents();
         this.setLocationRelativeTo(this);
         this.agregarIma(cierre_label, "src/img/return.png");
-        this.agregarIma(iRED1, "src/img/logo.jpg");
+        this.agregarIma(iRED1, "src/img/red1.jpg");
         iFIS2.setVisible(false);
         iFIS1.setVisible(false);
         iENL1.setVisible(false);
@@ -659,7 +659,7 @@ public class capas extends javax.swing.JFrame {
 //CAPA RED 1
     private void iRED1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iRED1MouseClicked
         Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
-        JOptionPane.showMessageDialog(null,"----NOMBRE---- "
+        JOptionPane.showMessageDialog(null,"Red modelo OSI "
                 + "\n\n\t\n-------INF "
                 + "-------\n\t+PUERTOS"
                 + "\t\n+COMPATIBILIDAD, ETC",
