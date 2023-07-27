@@ -32,6 +32,8 @@ public class capas extends javax.swing.JFrame {
         this.agregarIma(iSES2, "src/img/recuperacion.png");
         this.agregarIma(iFIS1, "src/img/ethernet.jpg");
         this.agregarIma(iFIS2, "src/img/repetidor.jpg");
+        this.agregarIma(iTRAN1, "src/img/TCP.png");
+        this.agregarIma(iTRAN1, "src/img/udp2.png");
         iFIS2.setVisible(false);
         iFIS1.setVisible(false);
         iENL1.setVisible(false);
