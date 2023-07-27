@@ -30,6 +30,8 @@ public class capas extends javax.swing.JFrame {
         this.agregarIma(iENL2, "src/img/Puente.png");
         this.agregarIma(iSES1, "src/img/control-dialogo.png");
         this.agregarIma(iSES2, "src/img/recuperacion.png");
+        this.agregarIma(iFIS1, "src/img/ethernet.jpg");
+        this.agregarIma(iFIS2, "src/img/repetidor.jpg");
         iFIS2.setVisible(false);
         iFIS1.setVisible(false);
         iENL1.setVisible(false);
@@ -620,22 +622,31 @@ public class capas extends javax.swing.JFrame {
     }//GEN-LAST:event_lbAplicacionMouseEntered
 
 //CAPA FISICA 1
+ //Transmite secuencia de bits de un lugar a otro, activa, desactiva y mantiene la conexion fisica
+ //Conecta con la capa de enlace de datos (mac con un medio fisica como fibra optica o wifi)
     private void iFIS1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iFIS1MouseClicked
         Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
-        JOptionPane.showMessageDialog(null,"----NOMBRE---- "
-                + "\n\n\t\n-------INF "
-                + "-------\n\t+PUERTOS"
-                + "\t\n+COMPATIBILIDAD, ETC",
+        JOptionPane.showMessageDialog(null,"----CABLE UTP CAT5e---- "
+                + "\n\n\t\nAprobado por TIA/EIA, 4 pares, conector RJ45 "
+                + "-------\n\t+Ethernet: conjunto de reglas o normas para comunicaciones, Alta velocidad, seguridad"
+                +"\n\ty fiabilidad"                      
+                + "\t\nEl protocolo más utilizado es IEEE 802.3 y aprobó:"
+                + "\t\n802.3ac , 802.3af, 802.3u (100BASE-T computadoras de usuarios finales)"
+                +"\t\nCat5(100 Mbps), Cat5e(1Gb), Cat6(10Gb) con conectores RJ45",
                 "CAPA 1",JOptionPane.INFORMATION_MESSAGE, icon);
     }//GEN-LAST:event_iFIS1MouseClicked
     
 //CAPA FISICA 2
     private void iFIS2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iFIS2MouseClicked
         Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
-        JOptionPane.showMessageDialog(null,"----NOMBRE---- "
-                + "\n\n\t\n-------INF "
-                + "-------\n\t+PUERTOS"
-                + "\t\n+COMPATIBILIDAD, ETC",
+        JOptionPane.showMessageDialog(null,"----REPETIDOR---- "
+                + "\n\n\t\n-------Compatible con 802.11 b/g/n y dispositivos Wi-Fi 802.11ac"
+                + "-------\n\tCon velocidades de hasta 750 Mbps"
+                + "\t\nTransmisión inalámbrica, patrones de radio. Utilizados en una WLAN"
+                + "\t\nAhorro de cableado, movilidad, pero no es tan fiable, rápida y segura y pueden tener"
+                +"\t\ninterferencias."
+                +"\t\nEstándares 802.11 a(5GHz-54Mbps), b(2.4GHz-11Mbps),g(2.4GHz-54Mbps),"
+                +"\t\nn (2.4/5-100/210Mbps),ac(Wifi 5), ax(Wifi 6)"+,
                 "CAPA 1",JOptionPane.INFORMATION_MESSAGE, icon);
     }//GEN-LAST:event_iFIS2MouseClicked
     
