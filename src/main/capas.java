@@ -34,6 +34,10 @@ public class capas extends javax.swing.JFrame {
         this.agregarIma(iFIS2, "src/img/repetidor.jpg");
         this.agregarIma(iTRAN1, "src/img/TCP.png");
         this.agregarIma(iTRAN1, "src/img/udp2.png");
+        this.agregarIma(iAPP1, "src/img/aplicacion.jpg");
+        this.agregarIma(iAPP2, "src/img/api.png");
+        this.agregarIma(iPRES1, "src/img/datos.jpg");
+        this.agregarIma(iPRES2, "src/img/presentacion.jpg");
         iFIS2.setVisible(false);
         iFIS1.setVisible(false);
         iENL1.setVisible(false);
@@ -753,41 +757,40 @@ public class capas extends javax.swing.JFrame {
     
 //CAPA PRESENTACION 1
     private void iPRES1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iPRES1MouseClicked
-        Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
-        JOptionPane.showMessageDialog(null,"----NOMBRE---- "
-                + "\n\n\t\n-------INF "
-                + "-------\n\t+PUERTOS"
-                + "\t\n+COMPATIBILIDAD, ETC",
+        Icon icon = new ImageIcon(getClass().getResource("presentacion.jpg"));
+        JOptionPane.showMessageDialog(null,"Prótocolo de Presentación"
+                + "\n\n\t\nEsta capa tiene menos protocolos estándar, pero se utiliza"
+                + "-------\n\tpara la transmisión de datos en redes de conmutación de paquetes",
                 "CAPA 6",JOptionPane.INFORMATION_MESSAGE, icon);
     }//GEN-LAST:event_iPRES1MouseClicked
     
 //CAPA PRESENTACION 2
     private void iPRES2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iPRES2MouseClicked
-        Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
-        JOptionPane.showMessageDialog(null,"----NOMBRE---- "
-                + "\n\n\t\n-------INF "
-                + "-------\n\t+PUERTOS"
-                + "\t\n+COMPATIBILIDAD, ETC",
+        Icon icon = new ImageIcon(getClass().getResource("datos.jpg"));
+        JOptionPane.showMessageDialog(null,"Datos"
+                + "\n\n\t\nLos datos son la información que se transmite entre las aplicaciones"
+                + "\n\ta través de la red. La Capa de Presentación se asegura de que estos datos"
+                + "\t\nestén en un formato adecuado y comprensible para ambas aplicaciones",
                 "CAPA 6",JOptionPane.INFORMATION_MESSAGE, icon);
     }//GEN-LAST:event_iPRES2MouseClicked
     
 //CAPA APLICACION 1
     private void iAPP1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iAPP1MouseClicked
-        Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
-        JOptionPane.showMessageDialog(null,"----NOMBRE---- "
-                + "\n\n\t\n-------INF "
-                + "-------\n\t+PUERTOS"
-                + "\t\n+COMPATIBILIDAD, ETC",
+        Icon icon = new ImageIcon(getClass().getResource("aplicacion.jpg"));
+        JOptionPane.showMessageDialog(null,"Protocolos de Aplicación"
+                + "\n\n\t\nSon los protocolos específicos que permiten que las aplicaciones se"
+                + "\n\tcomuniquen con los servicios de red. Por ejemplo, HTTP para navegacion web,"
+                + "\t\nSMTP para el envío de correos electrónicos, FTP para transferencia de archivos, etc",
                 "CAPA 7",JOptionPane.INFORMATION_MESSAGE, icon);
     }//GEN-LAST:event_iAPP1MouseClicked
     
 //CAPA APLICACION 2
     private void iAPP2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iAPP2MouseClicked
-        Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
-        JOptionPane.showMessageDialog(null,"----NOMBRE---- "
-                + "\n\n\t\n-------INF "
-                + "-------\n\t+PUERTOS"
-                + "\t\n+COMPATIBILIDAD, ETC",
+        Icon icon = new ImageIcon(getClass().getResource("api.png"));
+        JOptionPane.showMessageDialog(null,"API"
+                + "\n\n\t\nEs un conjunto de funciones y procedimientos que las aplicaciones"
+                + "\n\tpueden utilizar para acceder a los servicios de red proporcionados por"
+                + "\t\nla Capa de Aplicación",
                 "CAPA 7",JOptionPane.INFORMATION_MESSAGE, icon);
     }//GEN-LAST:event_iAPP2MouseClicked
 
