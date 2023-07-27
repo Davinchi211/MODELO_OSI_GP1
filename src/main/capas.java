@@ -198,19 +198,19 @@ public class capas extends javax.swing.JFrame {
                 lbAplicacionMouseExited(evt);
             }
         });
-        bg_capas.add(lbAplicacion, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 60, 220, 50));
+        bg_capas.add(lbAplicacion, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 80, 220, 50));
 
         jSeparator2.setBackground(new java.awt.Color(155, 164, 181));
         jSeparator2.setForeground(new java.awt.Color(33, 42, 62));
         jSeparator2.setOpaque(true);
         jSeparator2.setPreferredSize(new java.awt.Dimension(50, 1));
-        bg_capas.add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 120, 220, 10));
+        bg_capas.add(jSeparator2, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 140, 220, 10));
 
         jSeparator3.setBackground(new java.awt.Color(155, 164, 181));
         jSeparator3.setForeground(new java.awt.Color(33, 42, 62));
         jSeparator3.setOpaque(true);
         jSeparator3.setPreferredSize(new java.awt.Dimension(50, 1));
-        bg_capas.add(jSeparator3, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 200, 220, 10));
+        bg_capas.add(jSeparator3, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 230, 220, 10));
 
         lbPresentacion.setBackground(new java.awt.Color(33, 42, 62));
         lbPresentacion.setFont(new java.awt.Font("Microsoft YaHei UI", 0, 18)); // NOI18N
@@ -226,13 +226,13 @@ public class capas extends javax.swing.JFrame {
                 lbPresentacionMouseExited(evt);
             }
         });
-        bg_capas.add(lbPresentacion, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 140, 220, 50));
+        bg_capas.add(lbPresentacion, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 160, 220, 50));
 
         jSeparator4.setBackground(new java.awt.Color(155, 164, 181));
         jSeparator4.setForeground(new java.awt.Color(33, 42, 62));
         jSeparator4.setOpaque(true);
         jSeparator4.setPreferredSize(new java.awt.Dimension(50, 1));
-        bg_capas.add(jSeparator4, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 280, 220, 10));
+        bg_capas.add(jSeparator4, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 320, 220, 10));
 
         lbSesion.setBackground(new java.awt.Color(33, 42, 62));
         lbSesion.setFont(new java.awt.Font("Microsoft YaHei UI", 0, 18)); // NOI18N
@@ -248,7 +248,7 @@ public class capas extends javax.swing.JFrame {
                 lbSesionMouseExited(evt);
             }
         });
-        bg_capas.add(lbSesion, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 220, 220, 50));
+        bg_capas.add(lbSesion, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 250, 220, 50));
 
         lbTrans.setBackground(new java.awt.Color(33, 42, 62));
         lbTrans.setFont(new java.awt.Font("Microsoft YaHei UI", 0, 18)); // NOI18N
@@ -264,13 +264,13 @@ public class capas extends javax.swing.JFrame {
                 lbTransMouseExited(evt);
             }
         });
-        bg_capas.add(lbTrans, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 300, 220, 50));
+        bg_capas.add(lbTrans, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 340, 220, 50));
 
         jSeparator5.setBackground(new java.awt.Color(155, 164, 181));
         jSeparator5.setForeground(new java.awt.Color(33, 42, 62));
         jSeparator5.setOpaque(true);
         jSeparator5.setPreferredSize(new java.awt.Dimension(50, 1));
-        bg_capas.add(jSeparator5, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 360, 220, 10));
+        bg_capas.add(jSeparator5, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 410, 220, 10));
 
         lbRed.setBackground(new java.awt.Color(33, 42, 62));
         lbRed.setFont(new java.awt.Font("Microsoft YaHei UI", 0, 18)); // NOI18N
@@ -286,13 +286,13 @@ public class capas extends javax.swing.JFrame {
                 lbRedMouseExited(evt);
             }
         });
-        bg_capas.add(lbRed, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 380, 220, 50));
+        bg_capas.add(lbRed, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 430, 220, 50));
 
         jSeparator6.setBackground(new java.awt.Color(155, 164, 181));
         jSeparator6.setForeground(new java.awt.Color(33, 42, 62));
         jSeparator6.setOpaque(true);
         jSeparator6.setPreferredSize(new java.awt.Dimension(50, 1));
-        bg_capas.add(jSeparator6, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 440, 220, 10));
+        bg_capas.add(jSeparator6, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 500, 220, 10));
 
         lbEnlace.setBackground(new java.awt.Color(33, 42, 62));
         lbEnlace.setFont(new java.awt.Font("Microsoft YaHei UI", 0, 18)); // NOI18N
@@ -308,13 +308,13 @@ public class capas extends javax.swing.JFrame {
                 lbEnlaceMouseExited(evt);
             }
         });
-        bg_capas.add(lbEnlace, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 460, 220, 50));
+        bg_capas.add(lbEnlace, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 520, 220, 50));
 
         jSeparator7.setBackground(new java.awt.Color(155, 164, 181));
         jSeparator7.setForeground(new java.awt.Color(33, 42, 62));
         jSeparator7.setOpaque(true);
         jSeparator7.setPreferredSize(new java.awt.Dimension(50, 1));
-        bg_capas.add(jSeparator7, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 520, 220, 10));
+        bg_capas.add(jSeparator7, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 590, 220, 10));
 
         lbFisica.setBackground(new java.awt.Color(33, 42, 62));
         lbFisica.setFont(new java.awt.Font("Microsoft YaHei UI", 0, 18)); // NOI18N
@@ -331,13 +331,13 @@ public class capas extends javax.swing.JFrame {
                 lbFisicaMouseExited(evt);
             }
         });
-        bg_capas.add(lbFisica, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 540, 220, 50));
+        bg_capas.add(lbFisica, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 610, 220, 50));
 
         jSeparator8.setBackground(new java.awt.Color(155, 164, 181));
         jSeparator8.setForeground(new java.awt.Color(33, 42, 62));
         jSeparator8.setOpaque(true);
         jSeparator8.setPreferredSize(new java.awt.Dimension(50, 1));
-        bg_capas.add(jSeparator8, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 600, 220, 10));
+        bg_capas.add(jSeparator8, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 680, 220, 10));
 
         jLabel8.setBackground(new java.awt.Color(132, 167, 161));
         jLabel8.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 18)); // NOI18N
@@ -345,7 +345,7 @@ public class capas extends javax.swing.JFrame {
         jLabel8.setText("1");
         jLabel8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jLabel8.setOpaque(true);
-        bg_capas.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 540, 50, 50));
+        bg_capas.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 610, 50, 50));
 
         jLabel9.setBackground(new java.awt.Color(132, 167, 161));
         jLabel9.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 18)); // NOI18N
@@ -353,7 +353,7 @@ public class capas extends javax.swing.JFrame {
         jLabel9.setText("7");
         jLabel9.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jLabel9.setOpaque(true);
-        bg_capas.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 60, 50, 50));
+        bg_capas.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 80, 50, 50));
 
         jLabel10.setBackground(new java.awt.Color(132, 167, 161));
         jLabel10.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 18)); // NOI18N
@@ -361,7 +361,7 @@ public class capas extends javax.swing.JFrame {
         jLabel10.setText("6");
         jLabel10.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jLabel10.setOpaque(true);
-        bg_capas.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 140, 50, 50));
+        bg_capas.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 160, 50, 50));
 
         jLabel11.setBackground(new java.awt.Color(132, 167, 161));
         jLabel11.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 18)); // NOI18N
@@ -369,7 +369,7 @@ public class capas extends javax.swing.JFrame {
         jLabel11.setText("5");
         jLabel11.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jLabel11.setOpaque(true);
-        bg_capas.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 220, 50, 50));
+        bg_capas.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 250, 50, 50));
 
         jLabel12.setBackground(new java.awt.Color(132, 167, 161));
         jLabel12.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 18)); // NOI18N
@@ -377,7 +377,7 @@ public class capas extends javax.swing.JFrame {
         jLabel12.setText("4");
         jLabel12.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jLabel12.setOpaque(true);
-        bg_capas.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 300, 50, 50));
+        bg_capas.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 340, 50, 50));
 
         jLabel13.setBackground(new java.awt.Color(132, 167, 161));
         jLabel13.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 18)); // NOI18N
@@ -385,7 +385,7 @@ public class capas extends javax.swing.JFrame {
         jLabel13.setText("3");
         jLabel13.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jLabel13.setOpaque(true);
-        bg_capas.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 380, 50, 50));
+        bg_capas.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 430, 50, 50));
 
         jLabel14.setBackground(new java.awt.Color(132, 167, 161));
         jLabel14.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 18)); // NOI18N
@@ -393,7 +393,7 @@ public class capas extends javax.swing.JFrame {
         jLabel14.setText("2");
         jLabel14.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jLabel14.setOpaque(true);
-        bg_capas.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 460, 50, 50));
+        bg_capas.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 520, 50, 50));
 
         iENL2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iENL2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -402,7 +402,7 @@ public class capas extends javax.swing.JFrame {
                 iENL2MouseClicked(evt);
             }
         });
-        bg_capas.add(iENL2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 460, 80, 60));
+        bg_capas.add(iENL2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 510, 80, 80));
 
         iFIS1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iFIS1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -411,7 +411,7 @@ public class capas extends javax.swing.JFrame {
                 iFIS1MouseClicked(evt);
             }
         });
-        bg_capas.add(iFIS1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 540, 80, 60));
+        bg_capas.add(iFIS1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 600, 80, 80));
 
         iENL1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iENL1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -420,7 +420,7 @@ public class capas extends javax.swing.JFrame {
                 iENL1MouseClicked(evt);
             }
         });
-        bg_capas.add(iENL1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 460, 80, 60));
+        bg_capas.add(iENL1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 510, 80, 80));
 
         iRED1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iRED1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -429,7 +429,7 @@ public class capas extends javax.swing.JFrame {
                 iRED1MouseClicked(evt);
             }
         });
-        bg_capas.add(iRED1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 380, 80, 60));
+        bg_capas.add(iRED1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 420, 80, 80));
 
         iTRAN1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iTRAN1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -438,7 +438,7 @@ public class capas extends javax.swing.JFrame {
                 iTRAN1MouseClicked(evt);
             }
         });
-        bg_capas.add(iTRAN1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 300, 80, 60));
+        bg_capas.add(iTRAN1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 330, 80, 80));
 
         iSES1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iSES1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -447,7 +447,7 @@ public class capas extends javax.swing.JFrame {
                 iSES1MouseClicked(evt);
             }
         });
-        bg_capas.add(iSES1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 220, 80, 60));
+        bg_capas.add(iSES1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 240, 80, 80));
 
         iPRES1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iPRES1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -456,7 +456,7 @@ public class capas extends javax.swing.JFrame {
                 iPRES1MouseClicked(evt);
             }
         });
-        bg_capas.add(iPRES1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 140, 80, 60));
+        bg_capas.add(iPRES1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 150, 80, 80));
 
         iAPP1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iAPP1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -465,7 +465,7 @@ public class capas extends javax.swing.JFrame {
                 iAPP1MouseClicked(evt);
             }
         });
-        bg_capas.add(iAPP1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 60, 80, 60));
+        bg_capas.add(iAPP1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 60, 80, 80));
 
         iSES2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iSES2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -474,7 +474,7 @@ public class capas extends javax.swing.JFrame {
                 iSES2MouseClicked(evt);
             }
         });
-        bg_capas.add(iSES2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 220, 80, 60));
+        bg_capas.add(iSES2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 240, 80, 80));
 
         iFIS2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iFIS2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -483,7 +483,7 @@ public class capas extends javax.swing.JFrame {
                 iFIS2MouseClicked(evt);
             }
         });
-        bg_capas.add(iFIS2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 540, 80, 60));
+        bg_capas.add(iFIS2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 600, 80, 80));
 
         iPRES2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iPRES2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -492,7 +492,7 @@ public class capas extends javax.swing.JFrame {
                 iPRES2MouseClicked(evt);
             }
         });
-        bg_capas.add(iPRES2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 140, 80, 60));
+        bg_capas.add(iPRES2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 150, 80, 80));
 
         iTRAN2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iTRAN2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -501,7 +501,7 @@ public class capas extends javax.swing.JFrame {
                 iTRAN2MouseClicked(evt);
             }
         });
-        bg_capas.add(iTRAN2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 300, 80, 60));
+        bg_capas.add(iTRAN2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 330, 80, 80));
 
         iRED2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iRED2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -510,7 +510,7 @@ public class capas extends javax.swing.JFrame {
                 iRED2MouseClicked(evt);
             }
         });
-        bg_capas.add(iRED2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 380, 80, 60));
+        bg_capas.add(iRED2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 420, 80, 80));
 
         iRED3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iRED3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -519,7 +519,7 @@ public class capas extends javax.swing.JFrame {
                 iRED3MouseClicked(evt);
             }
         });
-        bg_capas.add(iRED3, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 380, 80, 60));
+        bg_capas.add(iRED3, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 420, 80, 80));
 
         iAPP2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iAPP2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -528,7 +528,7 @@ public class capas extends javax.swing.JFrame {
                 iAPP2MouseClicked(evt);
             }
         });
-        bg_capas.add(iAPP2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 60, 80, 60));
+        bg_capas.add(iAPP2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 60, 80, 80));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -538,9 +538,7 @@ public class capas extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(bg_capas, javax.swing.GroupLayout.PREFERRED_SIZE, 635, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+            .addComponent(bg_capas, javax.swing.GroupLayout.DEFAULT_SIZE, 712, Short.MAX_VALUE)
         );
 
         pack();

@@ -95,7 +95,6 @@ public class inicio extends javax.swing.JFrame {
         bg_imagenes.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         bg_imagenes.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        FIS1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/router-de-wifi.png"))); // NOI18N
         FIS1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         FIS1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         FIS1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -103,16 +102,15 @@ public class inicio extends javax.swing.JFrame {
                 FIS1MouseClicked(evt);
             }
         });
-        bg_imagenes.add(FIS1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 80, 80));
+        bg_imagenes.add(FIS1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 100, 100));
 
-        ENL2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         ENL2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         ENL2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 ENL2MouseClicked(evt);
             }
         });
-        bg_imagenes.add(ENL2, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 20, 80, 80));
+        bg_imagenes.add(ENL2, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 20, 100, 100));
 
         TRAN1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         TRAN1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -121,16 +119,15 @@ public class inicio extends javax.swing.JFrame {
                 TRAN1MouseClicked(evt);
             }
         });
-        bg_imagenes.add(TRAN1, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 20, 80, 80));
+        bg_imagenes.add(TRAN1, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 20, 100, 100));
 
-        SESION2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         SESION2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         SESION2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 SESION2MouseClicked(evt);
             }
         });
-        bg_imagenes.add(SESION2, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 20, 80, 80));
+        bg_imagenes.add(SESION2, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 20, 100, 100));
 
         APP1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         APP1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -139,7 +136,7 @@ public class inicio extends javax.swing.JFrame {
                 APP1MouseClicked(evt);
             }
         });
-        bg_imagenes.add(APP1, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 20, 80, 80));
+        bg_imagenes.add(APP1, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 20, 100, 100));
 
         FIS2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         FIS2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -148,7 +145,7 @@ public class inicio extends javax.swing.JFrame {
                 FIS2MouseClicked(evt);
             }
         });
-        bg_imagenes.add(FIS2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 130, 80, 80));
+        bg_imagenes.add(FIS2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 130, 100, 100));
 
         RED1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         RED1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -157,7 +154,7 @@ public class inicio extends javax.swing.JFrame {
                 RED1MouseClicked(evt);
             }
         });
-        bg_imagenes.add(RED1, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 130, 80, 80));
+        bg_imagenes.add(RED1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 130, 100, 100));
 
         TRAN2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         TRAN2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -166,7 +163,7 @@ public class inicio extends javax.swing.JFrame {
                 TRAN2MouseClicked(evt);
             }
         });
-        bg_imagenes.add(TRAN2, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 130, 80, 80));
+        bg_imagenes.add(TRAN2, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 130, 100, 100));
 
         PRES1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         PRES1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -175,7 +172,7 @@ public class inicio extends javax.swing.JFrame {
                 PRES1MouseClicked(evt);
             }
         });
-        bg_imagenes.add(PRES1, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 130, 80, 80));
+        bg_imagenes.add(PRES1, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 130, 100, 100));
 
         APP2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         APP2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -184,16 +181,15 @@ public class inicio extends javax.swing.JFrame {
                 APP2MouseClicked(evt);
             }
         });
-        bg_imagenes.add(APP2, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 130, 80, 80));
+        bg_imagenes.add(APP2, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 130, 100, 100));
 
-        ENL1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         ENL1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         ENL1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 ENL1MouseClicked(evt);
             }
         });
-        bg_imagenes.add(ENL1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 240, 80, 80));
+        bg_imagenes.add(ENL1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 240, 100, 100));
 
         RED2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         RED2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -202,16 +198,15 @@ public class inicio extends javax.swing.JFrame {
                 RED2MouseClicked(evt);
             }
         });
-        bg_imagenes.add(RED2, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 240, 80, 80));
+        bg_imagenes.add(RED2, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 240, 100, 100));
 
-        SESION1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         SESION1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         SESION1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 SESION1MouseClicked(evt);
             }
         });
-        bg_imagenes.add(SESION1, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 240, 80, 80));
+        bg_imagenes.add(SESION1, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 240, 100, 100));
 
         PRES2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         PRES2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -220,7 +215,7 @@ public class inicio extends javax.swing.JFrame {
                 PRES2MouseClicked(evt);
             }
         });
-        bg_imagenes.add(PRES2, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 240, 80, 80));
+        bg_imagenes.add(PRES2, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 240, 100, 100));
 
         RED3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         RED3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -229,9 +224,9 @@ public class inicio extends javax.swing.JFrame {
                 RED3MouseClicked(evt);
             }
         });
-        bg_imagenes.add(RED3, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 240, 80, 80));
+        bg_imagenes.add(RED3, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 240, 100, 100));
 
-        bg.add(bg_imagenes, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 130, 580, 340));
+        bg.add(bg_imagenes, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 130, 610, 370));
 
         btnCapas.setBackground(new java.awt.Color(96, 150, 180));
         btnCapas.setFont(new java.awt.Font("Felix Titling", 1, 14)); // NOI18N
@@ -254,7 +249,7 @@ public class inicio extends javax.swing.JFrame {
                 btnCapasActionPerformed(evt);
             }
         });
-        bg.add(btnCapas, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 500, 150, 50));
+        bg.add(btnCapas, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 510, 150, 50));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
