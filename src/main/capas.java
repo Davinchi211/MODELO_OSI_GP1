@@ -26,6 +26,10 @@ public class capas extends javax.swing.JFrame {
         this.agregarIma(cierre_label, "src/img/return.png");
         this.agregarIma(iRED1, "src/img/red1.jpg");
         this.agregarIma(iRED2, "src/img/red2.jpg");
+        this.agregarIma(iENL1, "src/img/tarjeta-interfaz-red-NIC.png");
+        this.agregarIma(iENL2, "src/img/Puente.png");
+        this.agregarIma(iSES1, "src/img/control-dialogo.png");
+        this.agregarIma(iSES2, "src/img/recuperacion.png");
         iFIS2.setVisible(false);
         iFIS1.setVisible(false);
         iENL1.setVisible(false);
@@ -640,20 +644,31 @@ public class capas extends javax.swing.JFrame {
 //CAPA ENLACE DE DATOS 1
     private void iENL1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iENL1MouseClicked
         Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
-        JOptionPane.showMessageDialog(null,"----NOMBRE---- "
-                + "\n\n\t\n-------INF "
-                + "-------\n\t+PUERTOS"
-                + "\t\n+COMPATIBILIDAD, ETC",
+        JOptionPane.showMessageDialog(null,"Tarjeta de interfaz de Red (NIC)"
+                + "\n\n\t\nSon dispositivos de hardware que se instalan en una computadora y otros dispositivos para permitirles"
+                + "\n\tconectarse a una red. Estas tarjetas son responsables de la interfaz física entre el dispositivo y el medio"
+                + "\n\tde transmisión, y contienen una dirección MAC única que se utiliza para identificar el dispositivo en la red."
+                + "\n\n\t•Puerto físico de tipo RJ-45 (conector Ethernet). Puerto lógico asociado con una dirección MAC. Puerto USB"
+                + "\n\n\t•En términos de tipos de redes, pueden ser compatibles con diferentes tipos de redes, como redes de área local (LAN), redes"
+                + "\n\tinalámbricas (WLAN), redes de área amplia (WAN) y redes virtuales, entre otras."
+                + "\n\t•En términos de protocolos de red, las NIC suelen ser compatibles con una variedad de protocolos, como Ethernet "
+                + "\n\t(802.3), Wi-Fi (802.11), TCP/IP, UDP, IPv4 e IPv6, entre otros."
+                + "\n\t•Compartibles con gran variedad de sistemas operativos.",
                 "CAPA 2",JOptionPane.INFORMATION_MESSAGE, icon);
     }//GEN-LAST:event_iENL1MouseClicked
     
 //CAPA ENLACE DE DATOS 2
     private void iENL2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iENL2MouseClicked
         Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
-        JOptionPane.showMessageDialog(null,"----NOMBRE---- "
-                + "\n\n\t\n-------INF "
-                + "-------\n\t+PUERTOS"
-                + "\t\n+COMPATIBILIDAD, ETC",
+        JOptionPane.showMessageDialog(null,"Puente o bridge"
+                + "\n\n\t\nLos puentes son dispositivos similares a los switches y también operan en la capa de enlace de datos."
+                + "\n\tSe utilizan para conectar segmentos de red y mejorar el rendimiento de la red, dividiendo el tráfico en"
+                + "\n\tsegmentos más pequeños y reducir la cantidad de tráfico que se propaga por toda la red."
+                + "\n\n\t•Los puentes de red no tienen puertos físicos como las tarjetas de interfaz de red (NIC)."
+                + "\n\n\t•Los puentes de red son compatibles con el protocolo Ethernet (802.3), que es el estándar de facto para la "
+                + "\n\tmayoría de las redes locales (LAN) cableadas."
+                + "\n\t•Los puentes de red utilizan direcciones MAC para identificar dispositivos y segmentos de red"
+                + "\n\t•Esto los hace compatibles con una amplia variedad de sistemas operativos y plataformas.",
                 "CAPA 2",JOptionPane.INFORMATION_MESSAGE, icon);
     }//GEN-LAST:event_iENL2MouseClicked
     
@@ -708,20 +723,20 @@ public class capas extends javax.swing.JFrame {
 //CAPA SESION 1
     private void iSES1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iSES1MouseClicked
         Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
-        JOptionPane.showMessageDialog(null,"----NOMBRE---- "
-                + "\n\n\t\n-------INF "
-                + "-------\n\t+PUERTOS"
-                + "\t\n+COMPATIBILIDAD, ETC",
+        JOptionPane.showMessageDialog(null,"Control del diálogo"
+                + "\n\n\t\nLa capa de sesión controla el diálogo entre las aplicaciones, asegurándose de que las secuencias de intercambio "
+                + "\n\tde datos se realicen de manera ordenada y que se resuelvan problemas de distorsión o errores. Éste puede ser "
+                + "\n\tsimultáneo en los dos sentidos (full-duplex) o alternado en ambos sentidos (half-duplex).",
                 "CAPA 5",JOptionPane.INFORMATION_MESSAGE, icon);
     }//GEN-LAST:event_iSES1MouseClicked
     
 //CAPA SESION 2
     private void iSES2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iSES2MouseClicked
         Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
-        JOptionPane.showMessageDialog(null,"----NOMBRE---- "
-                + "\n\n\t\n-------INF "
-                + "-------\n\t+PUERTOS"
-                + "\t\n+COMPATIBILIDAD, ETC",
+        JOptionPane.showMessageDialog(null,"Recuperación"
+                + "\n\n\t\nLa capa de sesión puede proporcionar un procedimiento de puntos de comprobación, de forma que si ocurre algún"
+                + "\n\tipo de fallo entre puntos de comprobación, la entidad de sesión puede retransmitir todos los datos desde el último"
+                + "\n\tpunto de comprobación y no desde el principio.",
                 "CAPA 5",JOptionPane.INFORMATION_MESSAGE, icon);
     }//GEN-LAST:event_iSES2MouseClicked
     
