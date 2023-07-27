@@ -20,7 +20,10 @@ public class inicio extends javax.swing.JFrame {
         initComponents();
         this.setLocationRelativeTo(this);
         this.agregarImagen(cierre,"src/img/salida.png");
-        this.agregarImagen(ENL2, "src/img/router-de-wifi.png");
+        this.agregarImagen(ENL1, "src/img/tarjeta-interfaz-red-NIC.png");
+        this.agregarImagen(ENL2, "src/img/Puente.png");
+        this.agregarImagen(SESION1, "src/img/control-dialogo.png");
+        this.agregarImagen(SESION2, "src/img/recuperacion.png");
     }
 
     /**
