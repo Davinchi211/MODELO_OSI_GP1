@@ -24,6 +24,8 @@ public class inicio extends javax.swing.JFrame {
         this.agregarImagen(ENL2, "src/img/Puente.png");
         this.agregarImagen(SESION1, "src/img/control-dialogo.png");
         this.agregarImagen(SESION2, "src/img/recuperacion.png");
+        this.agregarImagen(FIS1,"src/img/ethernet.jpg");
+        this.agregarImagen(FIS2, "src/img/repetidor.jpg");
     }
 
     /**
@@ -95,7 +97,6 @@ public class inicio extends javax.swing.JFrame {
         bg_imagenes.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         bg_imagenes.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        FIS1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         FIS1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         FIS1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -138,7 +139,6 @@ public class inicio extends javax.swing.JFrame {
         });
         bg_imagenes.add(APP1, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 20, 100, 100));
 
-        FIS2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         FIS2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         FIS2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {

@@ -646,7 +646,7 @@ public class capas extends javax.swing.JFrame {
                 + "\t\nAhorro de cableado, movilidad, pero no es tan fiable, rápida y segura y pueden tener"
                 +"\t\ninterferencias."
                 +"\t\nEstándares 802.11 a(5GHz-54Mbps), b(2.4GHz-11Mbps),g(2.4GHz-54Mbps),"
-                +"\t\nn (2.4/5-100/210Mbps),ac(Wifi 5), ax(Wifi 6)"+,
+                +"\t\nn (2.4/5-100/210Mbps),ac(Wifi 5), ax(Wifi 6)",
                 "CAPA 1",JOptionPane.INFORMATION_MESSAGE, icon);
     }//GEN-LAST:event_iFIS2MouseClicked
     
