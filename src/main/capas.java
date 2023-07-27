@@ -206,7 +206,7 @@ public class capas extends javax.swing.JFrame {
                 lbAplicacionMouseExited(evt);
             }
         });
-        bg_capas.add(lbAplicacion, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 80, 220, 50));
+        bg_capas.add(lbAplicacion, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 70, 220, 50));
 
         jSeparator2.setBackground(new java.awt.Color(155, 164, 181));
         jSeparator2.setForeground(new java.awt.Color(33, 42, 62));
@@ -361,7 +361,7 @@ public class capas extends javax.swing.JFrame {
         jLabel9.setText("7");
         jLabel9.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jLabel9.setOpaque(true);
-        bg_capas.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 80, 50, 50));
+        bg_capas.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 70, 50, 50));
 
         jLabel10.setBackground(new java.awt.Color(132, 167, 161));
         jLabel10.setFont(new java.awt.Font("Microsoft YaHei UI Light", 1, 18)); // NOI18N
@@ -448,7 +448,6 @@ public class capas extends javax.swing.JFrame {
         });
         bg_capas.add(iTRAN1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 330, 80, 80));
 
-        iSES1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iSES1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         iSES1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -457,7 +456,6 @@ public class capas extends javax.swing.JFrame {
         });
         bg_capas.add(iSES1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 240, 80, 80));
 
-        iPRES1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iPRES1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         iPRES1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -466,7 +464,6 @@ public class capas extends javax.swing.JFrame {
         });
         bg_capas.add(iPRES1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 150, 80, 80));
 
-        iAPP1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iAPP1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         iAPP1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -475,7 +472,6 @@ public class capas extends javax.swing.JFrame {
         });
         bg_capas.add(iAPP1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 60, 80, 80));
 
-        iSES2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iSES2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         iSES2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -493,7 +489,6 @@ public class capas extends javax.swing.JFrame {
         });
         bg_capas.add(iFIS2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 600, 80, 80));
 
-        iPRES2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iPRES2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         iPRES2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -529,7 +524,6 @@ public class capas extends javax.swing.JFrame {
         });
         bg_capas.add(iRED3, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 420, 80, 80));
 
-        iAPP2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iAPP2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         iAPP2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -757,7 +751,7 @@ public class capas extends javax.swing.JFrame {
     
 //CAPA PRESENTACION 1
     private void iPRES1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iPRES1MouseClicked
-        Icon icon = new ImageIcon(getClass().getResource("presentacion.jpg"));
+        Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
         JOptionPane.showMessageDialog(null,"Prótocolo de Presentación"
                 + "\n\n\t\nEsta capa tiene menos protocolos estándar, pero se utiliza"
                 + "-------\n\tpara la transmisión de datos en redes de conmutación de paquetes",
@@ -766,7 +760,7 @@ public class capas extends javax.swing.JFrame {
     
 //CAPA PRESENTACION 2
     private void iPRES2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iPRES2MouseClicked
-        Icon icon = new ImageIcon(getClass().getResource("datos.jpg"));
+        Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
         JOptionPane.showMessageDialog(null,"Datos"
                 + "\n\n\t\nLos datos son la información que se transmite entre las aplicaciones"
                 + "\n\ta través de la red. La Capa de Presentación se asegura de que estos datos"
@@ -776,7 +770,7 @@ public class capas extends javax.swing.JFrame {
     
 //CAPA APLICACION 1
     private void iAPP1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iAPP1MouseClicked
-        Icon icon = new ImageIcon(getClass().getResource("aplicacion.jpg"));
+        Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
         JOptionPane.showMessageDialog(null,"Protocolos de Aplicación"
                 + "\n\n\t\nSon los protocolos específicos que permiten que las aplicaciones se"
                 + "\n\tcomuniquen con los servicios de red. Por ejemplo, HTTP para navegacion web,"
@@ -786,7 +780,7 @@ public class capas extends javax.swing.JFrame {
     
 //CAPA APLICACION 2
     private void iAPP2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iAPP2MouseClicked
-        Icon icon = new ImageIcon(getClass().getResource("api.png"));
+        Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
         JOptionPane.showMessageDialog(null,"API"
                 + "\n\n\t\nEs un conjunto de funciones y procedimientos que las aplicaciones"
                 + "\n\tpueden utilizar para acceder a los servicios de red proporcionados por"

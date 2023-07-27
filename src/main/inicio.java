@@ -26,6 +26,10 @@ public class inicio extends javax.swing.JFrame {
         this.agregarImagen(SESION2, "src/img/recuperacion.png");
         this.agregarImagen(FIS1,"src/img/ethernet.jpg");
         this.agregarImagen(FIS2, "src/img/repetidor.jpg");
+        this.agregarImagen(PRES1, "src/img/datos.jpg");
+        this.agregarImagen(PRES2, "src/img/presentacion.jpg");
+        this.agregarImagen(APP1,"src/img/aplicacion.jpg");
+        this.agregarImagen(APP2, "src/img/api.png");
     }
 
     /**
@@ -130,7 +134,6 @@ public class inicio extends javax.swing.JFrame {
         });
         bg_imagenes.add(SESION2, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 20, 100, 100));
 
-        APP1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         APP1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         APP1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -165,7 +168,6 @@ public class inicio extends javax.swing.JFrame {
         });
         bg_imagenes.add(TRAN2, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 130, 100, 100));
 
-        PRES1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         PRES1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         PRES1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -174,7 +176,6 @@ public class inicio extends javax.swing.JFrame {
         });
         bg_imagenes.add(PRES1, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 130, 100, 100));
 
-        APP2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         APP2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         APP2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -208,7 +209,6 @@ public class inicio extends javax.swing.JFrame {
         });
         bg_imagenes.add(SESION1, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 240, 100, 100));
 
-        PRES2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         PRES2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         PRES2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
