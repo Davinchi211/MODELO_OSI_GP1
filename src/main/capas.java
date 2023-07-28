@@ -33,7 +33,7 @@ public class capas extends javax.swing.JFrame {
         this.agregarIma(iFIS1, "src/img/ethernet.jpg");
         this.agregarIma(iFIS2, "src/img/repetidor.jpg");
         this.agregarIma(iTRAN1, "src/img/TCP.png");
-        this.agregarIma(iTRAN1, "src/img/udp2.png");
+        this.agregarIma(iTRAN2, "src/img/udp2.png");
         this.agregarIma(iAPP1, "src/img/aplicacion.jpg");
         this.agregarIma(iAPP2, "src/img/api.png");
         this.agregarIma(iPRES1, "src/img/datos.jpg");
@@ -710,24 +710,27 @@ public class capas extends javax.swing.JFrame {
     }//GEN-LAST:event_iRED3MouseClicked
     
 //CAPA TRANSPORTE 1
-    private void iTRAN1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iTRAN1MouseClicked
+     private void iTRAN1MouseClicked(java.awt.event.MouseEvent evt) {                                    
         Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
-        JOptionPane.showMessageDialog(null,"----NOMBRE---- "
-                + "\n\n\t\n-------INF "
-                + "-------\n\t+PUERTOS"
-                + "\t\n+COMPATIBILIDAD, ETC",
+        JOptionPane.showMessageDialog(null,"Protocolo Control de Transmisión(TCP)"
+                + "\n\n\t\nTCP utiliza direcciones de puertos para identificar las aplicaciones de destino y origen en los dispositivos finales:"
+                + "\n\t+Proporciona una transmisión de datos confiable y controlada, ideal para aplicaciones que requieren precisión y asegurar que los datos se entreguen sin errores."
+                + "\t\n+Monitorea el estado de la red y ajusta su velocidad de transmisión para evitar la congestión y mantener un flujo de datos estable.",
                 "CAPA 4",JOptionPane.INFORMATION_MESSAGE, icon);
-    }//GEN-LAST:event_iTRAN1MouseClicked
-    
+    }  //GEN-LAST:event_iTRAN1MouseClicked
+ 
 //CAPA TRANSPORTE 2
-    private void iTRAN2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iTRAN2MouseClicked
+    private void iTRAN2MouseClicked(java.awt.event.MouseEvent evt) {                                    
         Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
-        JOptionPane.showMessageDialog(null,"----NOMBRE---- "
-                + "\n\n\t\n-------INF "
-                + "-------\n\t+PUERTOS"
-                + "\t\n+COMPATIBILIDAD, ETC",
+        JOptionPane.showMessageDialog(null,"Protocolo de Datagramas de Usuario (UDP)"
+                + "\n\n\t\nUDP no requiere establecer una conexión antes de enviar datos. Cada paquete se trata de manera independiente, lo que lo hace más ligero y rápido que TCP."
+                + "\n\t+A diferencia de TCP, UDP no tiene mecanismos de retransmisión de paquetes perdidos, lo que significa que si se pierde un paquete en la red, no se volverá a enviar,"
+                + "\n\ty es responsabilidad de la aplicación que utiliza UDP hacer frente a cualquier pérdida de datos si es necesario."
+                + "\t\n+El uso de UDP es adecuado para aplicaciones en las que la velocidad y la latencia son más importantes que la confiabilidad de los datos. ",
                 "CAPA 4",JOptionPane.INFORMATION_MESSAGE, icon);
-    }//GEN-LAST:event_iTRAN2MouseClicked
+    } //GEN-LAST:event_iTRAN2MouseClicked
+
+ 
     
 //CAPA SESION 1
     private void iSES1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iSES1MouseClicked
