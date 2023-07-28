@@ -403,7 +403,6 @@ public class capas extends javax.swing.JFrame {
         jLabel14.setOpaque(true);
         bg_capas.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 520, 50, 50));
 
-        iENL2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iENL2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         iENL2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -412,7 +411,6 @@ public class capas extends javax.swing.JFrame {
         });
         bg_capas.add(iENL2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 510, 80, 80));
 
-        iFIS1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iFIS1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         iFIS1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -421,7 +419,6 @@ public class capas extends javax.swing.JFrame {
         });
         bg_capas.add(iFIS1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 600, 80, 80));
 
-        iENL1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iENL1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         iENL1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -430,7 +427,6 @@ public class capas extends javax.swing.JFrame {
         });
         bg_capas.add(iENL1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 510, 80, 80));
 
-        iRED1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iRED1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         iRED1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -439,7 +435,6 @@ public class capas extends javax.swing.JFrame {
         });
         bg_capas.add(iRED1, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 420, 80, 80));
 
-        iTRAN1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iTRAN1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         iTRAN1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -480,7 +475,6 @@ public class capas extends javax.swing.JFrame {
         });
         bg_capas.add(iSES2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 240, 80, 80));
 
-        iFIS2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iFIS2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         iFIS2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -497,7 +491,6 @@ public class capas extends javax.swing.JFrame {
         });
         bg_capas.add(iPRES2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 150, 80, 80));
 
-        iTRAN2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iTRAN2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         iTRAN2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -506,7 +499,6 @@ public class capas extends javax.swing.JFrame {
         });
         bg_capas.add(iTRAN2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 330, 80, 80));
 
-        iRED2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iRED2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         iRED2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -717,7 +709,7 @@ public class capas extends javax.swing.JFrame {
                 + "\n\t+Proporciona una transmisión de datos confiable y controlada, ideal para aplicaciones que requieren precisión y asegurar que los datos se entreguen sin errores."
                 + "\t\n+Monitorea el estado de la red y ajusta su velocidad de transmisión para evitar la congestión y mantener un flujo de datos estable.",
                 "CAPA 4",JOptionPane.INFORMATION_MESSAGE, icon);
-    }  //GEN-LAST:event_iTRAN1MouseClicked
+    }                                     
  
 //CAPA TRANSPORTE 2
     private void iTRAN2MouseClicked(java.awt.event.MouseEvent evt) {                                    
@@ -728,7 +720,7 @@ public class capas extends javax.swing.JFrame {
                 + "\n\ty es responsabilidad de la aplicación que utiliza UDP hacer frente a cualquier pérdida de datos si es necesario."
                 + "\t\n+El uso de UDP es adecuado para aplicaciones en las que la velocidad y la latencia son más importantes que la confiabilidad de los datos. ",
                 "CAPA 4",JOptionPane.INFORMATION_MESSAGE, icon);
-    } //GEN-LAST:event_iTRAN2MouseClicked
+    }                                    
 
  
     

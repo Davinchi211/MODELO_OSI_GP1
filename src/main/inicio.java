@@ -30,6 +30,10 @@ public class inicio extends javax.swing.JFrame {
         this.agregarImagen(PRES2, "src/img/presentacion.jpg");
         this.agregarImagen(APP1,"src/img/aplicacion.jpg");
         this.agregarImagen(APP2, "src/img/api.png");
+        this.agregarImagen(TRAN1, "src/img/TCP.png");
+        this.agregarImagen(TRAN2,"src/img/udp2.png");
+        this.agregarImagen(RED1, "src/img/red1.jpg");
+        this.agregarImagen(RED2,"src/img/red2.jpg");
     }
 
     /**
@@ -117,7 +121,6 @@ public class inicio extends javax.swing.JFrame {
         });
         bg_imagenes.add(ENL2, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 20, 100, 100));
 
-        TRAN1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         TRAN1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         TRAN1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -150,7 +153,6 @@ public class inicio extends javax.swing.JFrame {
         });
         bg_imagenes.add(FIS2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 130, 100, 100));
 
-        RED1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         RED1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         RED1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -159,7 +161,6 @@ public class inicio extends javax.swing.JFrame {
         });
         bg_imagenes.add(RED1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 130, 100, 100));
 
-        TRAN2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         TRAN2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         TRAN2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -192,7 +193,6 @@ public class inicio extends javax.swing.JFrame {
         });
         bg_imagenes.add(ENL1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 240, 100, 100));
 
-        RED2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         RED2.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         RED2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
