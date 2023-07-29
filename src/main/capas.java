@@ -10,7 +10,6 @@ import javax.swing.JOptionPane;
 /**
  *
  * @author GRUPO_1
- linea
  */
 
     
@@ -507,7 +506,6 @@ public class capas extends javax.swing.JFrame {
         });
         bg_capas.add(iRED2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 420, 80, 80));
 
-        iRED3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         iRED3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         iRED3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -620,8 +618,8 @@ public class capas extends javax.swing.JFrame {
         Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
         JOptionPane.showMessageDialog(null,"----CABLE UTP CAT5e---- "
                 + "\n\n\t\nAprobado por TIA/EIA, 4 pares, conector RJ45 "
-                + "-------\n\t+Ethernet: conjunto de reglas o normas para comunicaciones, Alta velocidad, seguridad"
-                +"\n\ty fiabilidad"                      
+                + "-------\n\t\nEthernet: conjunto de reglas o normas para comunicaciones, Alta velocidad,"
+                +"\n\tseguridad y fiabilidad"                      
                 + "\t\nEl protocolo más utilizado es IEEE 802.3 y aprobó:"
                 + "\t\n802.3ac , 802.3af, 802.3u (100BASE-T computadoras de usuarios finales)"
                 +"\t\nCat5(100 Mbps), Cat5e(1Gb), Cat6(10Gb) con conectores RJ45",
@@ -634,7 +632,7 @@ public class capas extends javax.swing.JFrame {
         JOptionPane.showMessageDialog(null,"----REPETIDOR---- "
                 + "\n\n\t\n-------Compatible con 802.11 b/g/n y dispositivos Wi-Fi 802.11ac"
                 + "-------\n\tCon velocidades de hasta 750 Mbps"
-                + "\t\nTransmisión inalámbrica, patrones de radio. Utilizados en una WLAN"
+                + "\t\n\nTransmisión inalámbrica, patrones de radio. Utilizados en una WLAN"
                 + "\t\nAhorro de cableado, movilidad, pero no es tan fiable, rápida y segura y pueden tener"
                 +"\t\ninterferencias."
                 +"\t\nEstándares 802.11 a(5GHz-54Mbps), b(2.4GHz-11Mbps),g(2.4GHz-54Mbps),"
@@ -747,7 +745,7 @@ public class capas extends javax.swing.JFrame {
 //CAPA PRESENTACION 1
     private void iPRES1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_iPRES1MouseClicked
         Icon icon = new ImageIcon(getClass().getResource("informacion.png"));
-        JOptionPane.showMessageDialog(null,"Prótocolo de Presentación"
+        JOptionPane.showMessageDialog(null,"Protocolo de Presentación"
                 + "\n\n\t\nEsta capa tiene menos protocolos estándar, pero se utiliza"
                 + "-------\n\tpara la transmisión de datos en redes de conmutación de paquetes",
                 "CAPA 6",JOptionPane.INFORMATION_MESSAGE, icon);
